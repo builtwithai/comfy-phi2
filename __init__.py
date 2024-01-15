@@ -1,4 +1,4 @@
-class Phi2:
+class AINode:
     """
     A example node
 
@@ -75,10 +75,10 @@ class Phi2:
 # A dictionary that contains all nodes you want to export with their names
 # NOTE: names should be globally unique
 NODE_CLASS_MAPPINGS = {
-    "Phi2": Phi2
+    "AINode": AINode
 }
 
 # A dictionary that contains the friendly/humanly readable titles for the nodes
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Phi2": "Phi2 Node"
+    "AINode": "AI Node"
 }
